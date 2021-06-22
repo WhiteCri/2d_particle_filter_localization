@@ -1,0 +1,4 @@
+<launch>
+    <node pkg="pf_project" type="likelihood_field_particle_filter" name="likelihood_field_particle_filter" output="screen"/>
+    <rosparam command="load" file="$(find pf_project)/param/likelihood_field_particle_filter.yaml" />
+</launch>
